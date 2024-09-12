@@ -17,7 +17,7 @@ var frequencia = (alunoFoi/10)*100
 if (media>= 7 && frequencia >= 75){
     alert ("Você foi aprovado. Parabéns !")
 }
-else if(media <=4 || frequencia <=75){
+else if(media <=4 || frequencia < 75){
     alert ("Infelizmente, você foi reprovado.")
 }
 else{
